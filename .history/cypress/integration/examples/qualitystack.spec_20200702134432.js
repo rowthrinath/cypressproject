@@ -6,7 +6,7 @@ it('GET', function(){
 
     cy.request({
         method : 'GET',
-        url : Cypress.env('baseUrl'),
+        url : Cypress.env(baseUrl),
     }).then(function(response){
         var responseData = response.body;
         expect(response.status).equals(200);

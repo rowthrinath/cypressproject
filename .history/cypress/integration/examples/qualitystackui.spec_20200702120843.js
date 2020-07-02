@@ -16,10 +16,6 @@ context('Actions', () => {
       cy.get('input').get('#phone-yui_3_17_2_1_1464038823631_299530 > div:nth-child(2) > label > input').type('044')
       cy.get('input').get('#phone-yui_3_17_2_1_1464038823631_299530 > div:nth-child(3) > label > input').type('0123')
       cy.get('input').get('#phone-yui_3_17_2_1_1464038823631_299530 > div:nth-child(4) > label > input').type('258746')
-      cy.get('textarea').get('#textarea-yui_3_17_2_1_1463758909823_38375-field').type('This is beautiful I am moving to cypress')
-      cy.get('input').get('#checkbox-yui_3_17_2_1_1543061994140_41259 > div:nth-child(2) > label > input[type=checkbox]').first().check() 
-
-
       //   .type('fake@email.com').should('have.value', 'fake@email.com')
   
       //   // .type() with special character sequences
