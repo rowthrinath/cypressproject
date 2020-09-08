@@ -1,6 +1,0 @@
-{
-  "projectId": "zga63g",
-  "env":{
-  "baseUrl": "https://localhost:5002/api/release"
-  }
-}

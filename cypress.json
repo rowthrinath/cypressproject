@@ -1,6 +1,7 @@
 {
   "projectId": "zga63g",
   "env":{
-  "baseUrl": "https://localhost:5002/api/release"
+  "baseUrl": "https://localhost:5002/api/release",
+  "tplUrl": "https://www.testperfectlimited.co.uk"
   }
 }

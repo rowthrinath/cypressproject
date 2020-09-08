@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.9.0"
+    "cypress": "^5.1.0",
+    "cypress-select-tests": "^1.5.7"
   }
 }
